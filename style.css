@@ -155,12 +155,12 @@ section {
 #nd2 .server-card {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding-top: 20px;
     padding-left: 20px;
-    /* perspective: 500px; */
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1150px) {
 #nd2 .server-card {
     flex-direction: column;
 }
